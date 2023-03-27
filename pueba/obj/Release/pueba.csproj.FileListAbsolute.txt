@@ -1,0 +1,14 @@
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\bin\Release\pueba.exe.config
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\bin\Release\pueba.exe
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\bin\Release\pueba.pdb
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\bin\Release\EntityFramework.dll
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\bin\Release\EntityFramework.xml
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\obj\Release\pueba.Form1.resources
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\obj\Release\pueba.Presentacion.frmMagic.resources
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\obj\Release\pueba.Presentacion.frmProducto.resources
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\obj\Release\pueba.Presentacion.frmTabla.resources
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\obj\Release\pueba.Presentacion.Login.resources
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\obj\Release\pueba.Properties.Resources.resources
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\obj\Release\pueba.csproj.GenerateResource.Cache
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\obj\Release\pueba.exe
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\obj\Release\pueba.pdb

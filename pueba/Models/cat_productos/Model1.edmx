@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="carterasModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="carterasModelStoreContainer">
+          <EntitySet Name="cat_productos" EntityType="carterasModel.Store.cat_productos" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
+        <EntityType Name="cat_productos">
+          <Key>
+            <PropertyRef Name="idu_producto" />
+          </Key>
+          <Property Name="idu_producto" Type="int" Nullable="false" />
+          <Property Name="des_producto" Type="varchar" MaxLength="1000" />
+          <Property Name="des_aplicacion" Type="varchar" MaxLength="1000" />
+        </EntityType>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="carterasModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="carteras" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="cat_productos" EntityType="carterasModel.cat_productos" />
+        </EntityContainer>
+        <EntityType Name="cat_productos">
+          <Key>
+            <PropertyRef Name="idu_producto" />
+          </Key>
+          <Property Name="idu_producto" Type="Int32" Nullable="false" />
+          <Property Name="des_producto" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+          <Property Name="des_aplicacion" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="carterasModelStoreContainer" CdmEntityContainer="carteras">
+          <EntitySetMapping Name="cat_productos">
+            <EntityTypeMapping TypeName="carterasModel.cat_productos">
+              <MappingFragment StoreEntitySet="cat_productos">
+                <ScalarProperty Name="idu_producto" ColumnName="idu_producto" />
+                <ScalarProperty Name="des_producto" ColumnName="des_producto" />
+                <ScalarProperty Name="des_aplicacion" ColumnName="des_aplicacion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

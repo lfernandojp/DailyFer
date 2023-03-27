@@ -1,0 +1,42 @@
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\bin\Debug\pueba.exe.config
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\bin\Debug\pueba.exe
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\bin\Debug\pueba.pdb
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\bin\Debug\EntityFramework.dll
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\bin\Debug\EntityFramework.xml
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\obj\Debug\pueba.Form1.resources
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\obj\Debug\pueba.Presentacion.frmMagic.resources
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\obj\Debug\pueba.Presentacion.frmProducto.resources
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\obj\Debug\pueba.Presentacion.frmTabla.resources
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\obj\Debug\pueba.Presentacion.Login.resources
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\obj\Debug\pueba.Properties.Resources.resources
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\obj\Debug\pueba.csproj.GenerateResource.Cache
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\obj\Debug\pueba.exe
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\obj\Debug\pueba.pdb
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\obj\Debug\pueba.csproj.AssemblyReference.cache
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\obj\Debug\pueba.csproj.CoreCompileInputs.cache
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\obj\Debug\pueba.csproj.CopyComplete
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\obj\Debug\pueba.Presentacion.frmUsuarios.resources
+C:\Users\luis.apinterfaces\Documents\Visual Studio 2012\Projects\pueba\pueba\obj\Debug\pueba.Presentacion.frmAltaUsuarios.resources
+C:\Users\User\Documents\programa\pueba\pueba\bin\Debug\pueba.exe.config
+C:\Users\User\Documents\programa\pueba\pueba\bin\Debug\pueba.exe
+C:\Users\User\Documents\programa\pueba\pueba\bin\Debug\pueba.pdb
+C:\Users\User\Documents\programa\pueba\pueba\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\programa\pueba\pueba\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\programa\pueba\pueba\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll
+C:\Users\User\Documents\programa\pueba\pueba\obj\Debug\pueba.csproj.AssemblyReference.cache
+C:\Users\User\Documents\programa\pueba\pueba\obj\Debug\pueba.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Documents\programa\pueba\pueba\obj\Debug\pueba.Form1.resources
+C:\Users\User\Documents\programa\pueba\pueba\obj\Debug\pueba.Presentacion.frmAltaUsuarios.resources
+C:\Users\User\Documents\programa\pueba\pueba\obj\Debug\pueba.Presentacion.frmUsuarios.resources
+C:\Users\User\Documents\programa\pueba\pueba\obj\Debug\pueba.Presentacion.frmMagic.resources
+C:\Users\User\Documents\programa\pueba\pueba\obj\Debug\pueba.Presentacion.frmProducto.resources
+C:\Users\User\Documents\programa\pueba\pueba\obj\Debug\pueba.Presentacion.frmTabla.resources
+C:\Users\User\Documents\programa\pueba\pueba\obj\Debug\pueba.Presentacion.Login.resources
+C:\Users\User\Documents\programa\pueba\pueba\obj\Debug\pueba.Properties.Resources.resources
+C:\Users\User\Documents\programa\pueba\pueba\obj\Debug\pueba.csproj.GenerateResource.cache
+C:\Users\User\Documents\programa\pueba\pueba\obj\Debug\pueba.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\programa\pueba\pueba\obj\Debug\pueba.csproj.CopyComplete
+C:\Users\User\Documents\programa\pueba\pueba\obj\Debug\pueba.exe
+C:\Users\User\Documents\programa\pueba\pueba\obj\Debug\pueba.pdb

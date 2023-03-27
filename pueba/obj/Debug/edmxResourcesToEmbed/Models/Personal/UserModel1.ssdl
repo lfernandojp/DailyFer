@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UsersDBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="UsersDBModelStoreContainer">
+    <EntitySet Name="User" EntityType="UsersDBModel.Store.User" store:Type="Tables" store:Schema="dbo" store:Name="User">
+      <DefiningQuery>SELECT 
+      [User].[User] AS [User], 
+      [User].[Pass] AS [Pass], 
+      [User].[Id] AS [Id]
+      FROM [dbo].[User] AS [User]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+  <!--Se encontraron errores durante la generación:
+      advertencia 6002: La tabla o vista 'UsuariosDB.dbo.User' no tiene ninguna clave principal definida. Se ha inferido la clave y la definición se creó como vista o tabla de solo lectura.
+      -->
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="User" />
+      <PropertyRef Name="Pass" />
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="User" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Pass" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+</Schema>

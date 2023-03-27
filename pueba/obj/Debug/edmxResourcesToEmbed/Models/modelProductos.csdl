@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="carterasModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="carterasEntities1" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="cat_productos" EntityType="carterasModel.cat_productos" />
+    <EntitySet Name="cat_reportesorigendatos" EntityType="carterasModel.cat_reportesorigendatos" />
+  </EntityContainer>
+  <EntityType Name="cat_productos">
+    <Key>
+      <PropertyRef Name="idu_producto" />
+    </Key>
+    <Property Name="idu_producto" Type="Int32" Nullable="false" />
+    <Property Name="des_producto" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="des_aplicacion" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="cat_reportesorigendatos">
+    <Key>
+      <PropertyRef Name="idu_producto" />
+      <PropertyRef Name="idu_reporte" />
+      <PropertyRef Name="idu_origendato" />
+    </Key>
+    <Property Name="idu_producto" Type="Int32" Nullable="false" />
+    <Property Name="idu_reporte" Type="Int32" Nullable="false" />
+    <Property Name="idu_origendato" Type="Int32" Nullable="false" />
+    <Property Name="des_dataset" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="des_procedimiento" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="des_consulta" Type="String" MaxLength="8000" Unicode="false" FixedLength="false" />
+    <Property Name="des_funcion" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="idu_conexion" Type="Int32" Nullable="false" />
+  </EntityType>
+</Schema>

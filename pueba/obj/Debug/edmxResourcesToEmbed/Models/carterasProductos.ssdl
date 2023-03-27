@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="carterasModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="carterasModelStoreContainer">
+    <EntitySet Name="cat_productos" EntityType="carterasModel.Store.cat_productos" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="cat_productos">
+    <Key>
+      <PropertyRef Name="idu_producto" />
+    </Key>
+    <Property Name="idu_producto" Type="int" Nullable="false" />
+    <Property Name="des_producto" Type="varchar" MaxLength="1000" />
+    <Property Name="des_aplicacion" Type="varchar" MaxLength="1000" />
+  </EntityType>
+</Schema>

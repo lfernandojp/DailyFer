@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="carterasModelStoreContainer" CdmEntityContainer="carterasEntities1">
+    <EntitySetMapping Name="cat_productos">
+      <EntityTypeMapping TypeName="carterasModel.cat_productos">
+        <MappingFragment StoreEntitySet="cat_productos">
+          <ScalarProperty Name="idu_producto" ColumnName="idu_producto" />
+          <ScalarProperty Name="des_producto" ColumnName="des_producto" />
+          <ScalarProperty Name="des_aplicacion" ColumnName="des_aplicacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cat_reportesorigendatos">
+      <EntityTypeMapping TypeName="carterasModel.cat_reportesorigendatos">
+        <MappingFragment StoreEntitySet="cat_reportesorigendatos">
+          <ScalarProperty Name="idu_producto" ColumnName="idu_producto" />
+          <ScalarProperty Name="idu_reporte" ColumnName="idu_reporte" />
+          <ScalarProperty Name="idu_origendato" ColumnName="idu_origendato" />
+          <ScalarProperty Name="des_dataset" ColumnName="des_dataset" />
+          <ScalarProperty Name="des_procedimiento" ColumnName="des_procedimiento" />
+          <ScalarProperty Name="des_consulta" ColumnName="des_consulta" />
+          <ScalarProperty Name="des_funcion" ColumnName="des_funcion" />
+          <ScalarProperty Name="idu_conexion" ColumnName="idu_conexion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

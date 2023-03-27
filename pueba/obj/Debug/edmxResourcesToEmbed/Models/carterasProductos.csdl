@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="carterasModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="carterasEntities2" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="cat_productos" EntityType="carterasModel.cat_productos" />
+  </EntityContainer>
+  <EntityType Name="cat_productos">
+    <Key>
+      <PropertyRef Name="idu_producto" />
+    </Key>
+    <Property Name="idu_producto" Type="Int32" Nullable="false" />
+    <Property Name="des_producto" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="des_aplicacion" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+  </EntityType>
+</Schema>
